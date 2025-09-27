@@ -3,5 +3,11 @@
     "description": "first hexlet project",
     "type": "project",
     "license": "proprietary",
-    "require": {}
+    "require": {
+        "fidry/makefile": "^1.1"
+    },
+    "bin": [
+        "bin/brain-games"
+    ]
+    
 }
