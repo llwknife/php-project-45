@@ -14,5 +14,10 @@
             "email": "llwknife@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "fidry/makefile": "^1.1"
+    },
+    "bin": [
+        "bin/brain-games"
+]
 }
