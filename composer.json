@@ -4,6 +4,10 @@
     "type": "project",
     "license": "proprietary",
     "autoload": {
+        "files": [
+            "src/Cli.php"
+            
+        ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
         }
@@ -15,7 +19,8 @@
         }
     ],
     "require": {
-        "fidry/makefile": "^1.1"
+        "fidry/makefile": "^1.1",
+        "wp-cli/php-cli-tools": "^0.12.6"
     },
     "bin": [
         "bin/brain-games"
