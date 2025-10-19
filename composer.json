@@ -5,7 +5,8 @@
     "license": "proprietary",
     "autoload": {
         "files": [
-            "src/Cli.php"
+            "src/Cli.php",
+            "src/brainevenlogic.php"
             
         ],
         "psr-4": {
@@ -23,6 +24,14 @@
         "wp-cli/php-cli-tools": "^0.12.6"
     },
     "bin": [
-        "bin/brain-games"
-]
+        "bin/brain-games",
+        "bin/brain-even",
+        "brain-calc"
+    ],
+    
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0"
+    }
+
+    
 }
