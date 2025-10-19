@@ -6,7 +6,9 @@
     "autoload": {
         "files": [
             "src/Cli.php",
-            "src/brainevenlogic.php"
+            "src/brainevenlogic.php",
+            "src/braincalclogic.php",
+            "src/braingsdlogic.php"
             
         ],
         "psr-4": {
@@ -26,7 +28,8 @@
     "bin": [
         "bin/brain-games",
         "bin/brain-even",
-        "brain-calc"
+        "brain-calc",
+        "brain-gsd"
     ],
     
     "require-dev": {

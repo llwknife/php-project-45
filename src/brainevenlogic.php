@@ -26,7 +26,7 @@ function gamelogic( $name)
         for( $i = 0; $i < 3; $i++){
         $number = rand(1, 100);
         $numbers[] = $number;   
-    }
+        }
         for( $i = 0; $i < 3; $i++){
             print_r('Question: ' . $numbers[$i] . "\n" );
             if( $numbers[$i] % 2 == 0){
@@ -48,6 +48,7 @@ function gamelogic( $name)
             }
 
         }
+        
     }while ($win == false);
     print_r("Congratulations, " . $name . "!");
 }
