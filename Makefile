@@ -12,3 +12,5 @@ brain-calc:
 	./bin/brain-calc.php
 brain-gcd:
 	./bin/brain-gsd.php
+brain-progression:
+	./bin/brain-progression.php

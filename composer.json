@@ -8,7 +8,8 @@
             "src/Cli.php",
             "src/brainevenlogic.php",
             "src/braincalclogic.php",
-            "src/braingsdlogic.php"
+            "src/braingsdlogic.php",
+            "src/brainprogressionlogic.php"
             
         ],
         "psr-4": {
@@ -29,7 +30,8 @@
         "bin/brain-games",
         "bin/brain-even",
         "brain-calc",
-        "brain-gsd"
+        "brain-gsd",
+        "brain-progression"
     ],
     
     "require-dev": {
