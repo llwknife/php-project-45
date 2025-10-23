@@ -14,3 +14,5 @@ brain-gcd:
 	./bin/brain-gsd.php
 brain-progression:
 	./bin/brain-progression.php
+brain-prime:
+	./bin/brain-prime.php

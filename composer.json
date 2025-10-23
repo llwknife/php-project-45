@@ -9,8 +9,9 @@
             "src/brainevenlogic.php",
             "src/braincalclogic.php",
             "src/braingsdlogic.php",
-            "src/brainprogressionlogic.php"
-            
+            "src/brainprogressionlogic.php",
+            "src/brainprimelogic.php"
+
         ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
@@ -31,7 +32,8 @@
         "bin/brain-even",
         "brain-calc",
         "brain-gsd",
-        "brain-progression"
+        "brain-progression",
+        "brain-prime"
     ],
     
     "require-dev": {

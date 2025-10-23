@@ -8,6 +8,6 @@ use function BrainGames\BrainProgressionLogic\progressionlogic;
 line('Welcome to the Brain Game!');
 $name = prompt('May I have your name?');
 line("Hello, %s!", $name);
-print_r('Find the greatest common divisor of given numbers.' . "\n");
+print_r('What number is missing in the progression?' . "\n");
 make_progression();
 progressionlogic($name);
