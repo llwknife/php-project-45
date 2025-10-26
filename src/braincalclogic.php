@@ -23,6 +23,7 @@ function calclogic($name)
                     break;
                 case 2:
                     $rightanswer = $firstnumber * $secondnumber;
+                    break;
             }
             if($answer == $rightanswer){
                 print_r("Correct\n");

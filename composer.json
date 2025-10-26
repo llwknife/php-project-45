@@ -12,10 +12,7 @@
             "src/brainprogressionlogic.php",
             "src/brainprimelogic.php"
 
-        ],
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        }
+        ]
     },
     "authors": [
         {
